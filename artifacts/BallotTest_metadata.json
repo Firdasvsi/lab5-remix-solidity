@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinninProposalWithReturnValue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkWinningProposal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Ballot_test.sol": "BallotTest"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_Ballot.sol": {
+			"keccak256": "0x56efe259df2285a51265edf1d381febb89fa357960d16555c81017f7d7469021",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://31f6bbeb9ff8aa76d7f92d82493cbfbb8a90ac4e584973c46087d3799d05fce5",
+				"dweb:/ipfs/QmXb4SGhwgPLATo1Ncc8uhj2y9m5VtPLKBZkzNeEpND9eb"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/Ballot_test.sol": {
+			"keccak256": "0x3d98f7eccb616917a91e2ee037bd1b801df5c99b32c6de93b0a29d3dda0f3fa4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d925f6469697033f4dec0656b37b5ed859ea220679e1e1360584e5cacf37dc7c",
+				"dweb:/ipfs/QmZPYjTAmyp1SavmLX66vmq9o9pxJBn53oMRgkveCk3qcG"
+			]
+		}
+	},
+	"version": 1
+}
